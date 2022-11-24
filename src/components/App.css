@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+::selection {
+    background: #ff2b62;
+    color: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #23252C;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 320px;
+    height: 780px;
+    background: #1A1B21;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image {
+    height: 40%;
+    width: 100%;
+    background-image: url("./photo.jpg");
+    background-size: cover;
+    background-position: -100px;
+}
+.name {
+    font-size: 25px;
+    font-weight: bold; 
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 30px;
+}
+.career {
+    font-size: 13px;
+    color: #ff2b62;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.websiteUrl {
+    color: #F5F5F5;
+    font-size: 10px;
+    margin-top: 13px;
+}
+.emailButton {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    transition: 0.4s;
+}
+.emailButton:hover {
+    border: 1px solid #ff2b62;
+    background: none;
+}
+.emailButton:hover .buttonText {
+    color: #ff2b62;
+}
+.buttonText {
+    color: #374151;
+    transition: color 0.4s;
+}
+.fa-envelope {
+    margin-right: 6px;
+}
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0px 35px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.textHeader {
+    font-size: 16px;
+    color: #F5F5F5;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.informationText {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+}
+.aboutText {
+    margin-top: 35px;
+}
+.interestsText {
+    margin-top: 15px;
+}
+.textParagraph {
+    color: #bbbbbb;
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 14px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background: #161619;
+    margin-top: auto;
+    border-top: 2px solid #ff2b62;
+}
+.icon {
+    margin: 0em 0.5em;
+}
+.fab {
+    font-size: 25px;
+    color: #918E9B;
+    transition: color 0.5s;
+}
+.fab:hover {
+    color: #ff2b62;
+}
